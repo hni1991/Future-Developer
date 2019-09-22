@@ -1,0 +1,36 @@
+body{
+    background-color: rgba(0, 0, 0, 0.295);
+
+}
+.amir-gallery{
+    margin-top: 150px;
+}
+.carousel-inner img{
+    height: 600px;
+}
+.hovering i{
+    font-size: 55px;
+}
+/* .active{
+    background-color: yellow !important; 
+} */
+.hovering{
+    opacity: 0;
+}
+#carouselExampleIndicators:hover .hovering{
+opacity: 1;
+transition: 2s;
+}
+.smallDad{
+    display: flex;
+    justify-content: center;
+}
+.smallpic{
+    width: 8.5%;
+}
+.smallpic>img{
+    height: 100%;;
+}
+.activepic{
+    border: 2px solid red;
+}
